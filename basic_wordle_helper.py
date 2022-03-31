@@ -3,6 +3,8 @@ from distutils.file_util import write_file
 
 word_list = []
 correct_letters = {}
+
+#relative to wordle wordlist path
 with open(r'Documents/words.txt', 'r') as f:
     w_file = f.readlines()
     for x in w_file:
