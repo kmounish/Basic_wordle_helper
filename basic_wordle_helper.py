@@ -4,7 +4,7 @@ from distutils.file_util import write_file
 word_list = []
 correct_letters = {}
 
-#relative to wordle wordlist path
+#relative to wordle wordlist path, can be found online
 with open(r'Documents/words.txt', 'r') as f:
     w_file = f.readlines()
     for x in w_file:
